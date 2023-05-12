@@ -27,7 +27,7 @@ const content = computed(() => popover.getContent());
   </div>
 </template>
 
-<style lang="scss">
+<style scoped>
 .popover-provider {
   position: relative;
 }
